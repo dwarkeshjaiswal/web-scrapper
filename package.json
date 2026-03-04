@@ -1,0 +1,32 @@
+{
+    "name": "web-scrapper",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "dev": "tsx watch src/scrapper.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/node": "^25.3.3",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.8.1",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "csv-writer": "^1.6.0",
+        "express": "^5.2.1",
+        "playwright": "^1.58.2",
+        "playwright-extra": "^4.3.6",
+        "puppeteer": "^24.37.5",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2"
+    }
+}
