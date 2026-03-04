@@ -27,14 +27,7 @@ This project uses `type: "module"` in `package.json`. When compiling to ESM with
 
 - Relative ECMAScript imports must include explicit file extensions (for example, use `import { readFileData } from "./utils.js"` instead of `"./utils"`).
 - The `dev` script uses `tsx` to run TypeScript files directly.
-
-**Build (optional)**
-
-```bash
-npx tsc
-# then run compiled output, for example:
-node dist/scrapper.js
-```
+- Use this url to trigger the scrapper: localhost:3000/scrapper
 
 **Files of interest**
 
